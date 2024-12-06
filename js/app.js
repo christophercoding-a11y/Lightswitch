@@ -5,7 +5,28 @@ const offbutton = document.getElementById('offBtn')
 
 // console.log(onbutton)
 
-offbutton.addEventListener('click', ()=> {
+//testing buttons
+onbutton.addEventListener('click', (e)=> {
+    e.preventDefault()
+    console.log('click')
+    
+})
+
+
+offbutton.addEventListener('click', (e)=> {
+    e.preventDefault()
     console.log('click')
 })
+
+
+
+
+
+
+
+
+
+
+
+
 
